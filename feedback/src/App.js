@@ -31,11 +31,13 @@ function App(){
     return(
        
             <Router>
-                <FeedbackProvider>
+                
                 <Header />
+                <FeedbackProvider>
                 
                 <div className="container">
-                    <Routes>
+                    <Routes> 
+                        
                         <Route exact path='/' element={
                             <>
                             <FeedbackForm  handleAdd={addFeedback}/>
@@ -46,7 +48,8 @@ function App(){
                         }>
                         </Route>
                         
-                        <Route path='/about' element={<AboutPage/>} />  
+                        <Route path='/about' element={<AboutPage/>} /> 
+                        
                     </Routes>
 
                     <AboutIconLink/>
