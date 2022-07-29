@@ -1,7 +1,7 @@
-import {createdContext,useState} from 'react'
+import {createContext,useState} from 'react'
 
 
-const FeedbackContext= createdContext()
+const FeedbackContext= createContext()
 
 
 export const FeedbackProvider=({children})=>{
