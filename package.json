@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "git": "^0.1.5",
+    "uuid": "^8.3.2"
+  }
+}
